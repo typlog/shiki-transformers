@@ -13,7 +13,4 @@ export default defineBuildConfig({
       },
     },
   },
-  externals: [
-    'hast',
-  ],
 })

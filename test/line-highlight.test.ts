@@ -94,6 +94,7 @@ describe('transformerLineHighlight', () => {
 
   for (const item of fixtures) {
     const name = Object.keys(item.options).map(k => {
+      // @ts-ignore
       return `${k}=${item.options[k]}`
     }).join(' ')
     it(name, async () => {

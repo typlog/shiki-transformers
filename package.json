@@ -31,8 +31,7 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage",
-    "prepublishOnly": "nr build"
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "shiki": "^1.6.3"
